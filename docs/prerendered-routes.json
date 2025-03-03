@@ -1,0 +1,7 @@
+{
+  "routes": {
+    "/SanmathiCakeShop/cart": {},
+    "/SanmathiCakeShop/feedback": {},
+    "/SanmathiCakeShop/home": {}
+  }
+}
