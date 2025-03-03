@@ -2,29 +2,29 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/SanmathiCakeShop/',
+  baseHref: '/cakeshop/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/SanmathiCakeShop/home"
+    "route": "/cakeshop/home"
   },
   {
     "renderMode": 2,
-    "route": "/SanmathiCakeShop/feedback"
+    "route": "/cakeshop/feedback"
   },
   {
     "renderMode": 2,
-    "route": "/SanmathiCakeShop/cart"
+    "route": "/cakeshop/cart"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 1213, hash: 'e7bbe2be72a47b6d45f6380fd1aa88959ac475ea131684b9fefbb9e7831d79d8', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1726, hash: 'f40296f0a85453d606a46d8d890d415682497e4e916d7b8d86a34f04995c8c97', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'home/index.html': {size: 14231, hash: '6b68a9666ecc1888164415060a9096e7f00f0f41648c063c7ad80770b3c79e81', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
-    'feedback/index.html': {size: 7981, hash: 'c9cb6d53c3cd552226350ca93cf91a785a4a507819fa8d24062d1737063c1d11', text: () => import('./assets-chunks/feedback_index_html.mjs').then(m => m.default)},
-    'cart/index.html': {size: 5777, hash: '1ee542c8a2161892c382107843604ab7376584ba7f5952c8a53dd42dd2e6cc37', text: () => import('./assets-chunks/cart_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 1205, hash: '0246847e199dbfed3d42b21bbf0e5c8e35f14988bd8ac715d46d5b0236705db2', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1718, hash: '9ac1103ee1a567a3c32847ab468de695887b4acf30d46e357e5665c17226d029', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'home/index.html': {size: 14175, hash: '8550d80d50e1fbed097380eab8b7a918a28283b1b18d979420943a582085ef14', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
+    'feedback/index.html': {size: 7925, hash: '3a4c29f2981cfd97f9c04ebd92186acd0159e39b33658c01c302abfbba1d9cec', text: () => import('./assets-chunks/feedback_index_html.mjs').then(m => m.default)},
+    'cart/index.html': {size: 5721, hash: '13d3f48d4b2defbfd18397be8a4db4b7fe1594eef643d4759c6ce5c51d54ff86', text: () => import('./assets-chunks/cart_index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

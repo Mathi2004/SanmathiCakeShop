@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/SanmathiCakeShop',
+  basePath: '/cakeshop',
   supportedLocales: {
   "en-US": ""
 },
