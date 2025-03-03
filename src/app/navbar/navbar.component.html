@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div class="container-fluid"><!--give full width-->
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="Brand Logo" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" [routerLink]="['/home']" fragment="homeslider">Home</a></li>
+          <li class="nav-item"><a class="nav-link" [routerLink]="['/home']" fragment="flavorpage">Flavors</a></li>
+          <li class="nav-item"><a class="nav-link" [routerLink]="['/home']" fragment="aboutus">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/feedback">Feedback</a></li>
+          <li class="nav-item"><a class="nav-link" [routerLink]="['/home']" fragment="contactus">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/cart"> <i class="fa fa-shopping-cart" style="font-size:26px">Cart({{cartService.getCartItems().length}})</i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
