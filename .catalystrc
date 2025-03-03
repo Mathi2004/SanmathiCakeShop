@@ -1,0 +1,56 @@
+{
+  "defaults": {
+    "project": 2,
+    "env": 1
+  },
+  "actives": {
+    "project": 2,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "14315000000008077",
+      "name": "cakeshop",
+      "domain": {
+        "id": "50025241924",
+        "name": "cakeshop-60038273726.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60038273726",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "id": "14315000000008123",
+      "name": "shopcake",
+      "domain": {
+        "id": "50025241964",
+        "name": "shopcake-60038273726.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60038273726",
+          "name": "Development",
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "shopcake",
+            "id": "14315000000008123",
+            "project_type": "Live"
+          },
+          "is_default": true,
+          "action_required": false
+        }
+      ]
+    }
+  ]
+}
